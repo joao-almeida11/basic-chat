@@ -18,65 +18,65 @@
             <div class="col-12 settings-tray__wrapper">
                 <div class="settings-tray">
                     <div class="friend-drawer no-gutters friend-drawer--grey">
-                        <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/robocop.jpg" alt="">
-                        <div class="text">
+                        <img class="profile-image" src="./assets/cat_photo_01.png" alt="">
+                        <div class=" text">
                             <h6>PHP GPT</h6>
                             <p class="text-muted">funny description</p>
                         </div>
-                        <span class="settings-tray--right">
+                        <!-- <span class="settings-tray--right">
                             <i class="material-icons">cached</i>
                             <i class="material-icons">message</i>
                             <i class="material-icons">menu</i>
-                        </span>
+                        </span> -->
                     </div>
                 </div>
                 <div class="chat-panel">
                     <div class="row no-gutters">
                         <div class="col-md-3">
                             <div class="chat-bubble chat-bubble--left">
-                                Hello dude!
+                                Avilla!
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3 offset-md-9">
                             <div class="chat-bubble chat-bubble--right">
-                                Hello dude!
+                                Avilla!
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3 offset-md-9">
                             <div class="chat-bubble chat-bubble--right">
-                                Hello dude!
+                                Avilla!
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3">
                             <div class="chat-bubble chat-bubble--left">
-                                Hello dude!
+                                Avilla!
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3">
                             <div class="chat-bubble chat-bubble--left">
-                                Hello dude!
+                                Avilla!
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3">
                             <div class="chat-bubble chat-bubble--left">
-                                Hello dude!
+                                Avilla!
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3 offset-md-9">
                             <div class="chat-bubble chat-bubble--right">
-                                Hello dude!
+                                Avilla!
                             </div>
                         </div>
                     </div>

@@ -110,7 +110,7 @@ hr {
 .chat-bubble {
     padding: 10px 14px;
     background: #eee;
-    margin: 0.5rem 1rem;
+    margin: 0 1rem;
     border-radius: 9px;
     position: relative;
     animation: fadeIn 1s ease-in;
@@ -125,18 +125,6 @@ hr {
     border-bottom: 0;
     margin-top: -10px;
 }
-/* .chat-bubble--left:after {
-    left: 0;
-    border-right-color: #eee;
-    border-left: 0;
-    margin-left: -20px;
-} */
-/* .chat-bubble--right:after {
-    right: 0;
-    border-left-color: #74b9ff;
-    border-right: 0;
-    margin-right: -20px;
-} */
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -160,7 +148,7 @@ hr {
 }
 .chat-box-tray input {
     margin: 0 10px;
-    padding: 6px 2px;
+    padding: 0.5rem 1rem;
 }
 .chat-box-tray i {
     color: gray;
@@ -183,11 +171,10 @@ hr {
 }
 
 .chat-panel {
-
+    margin-top: auto;
 }
 
 .chat-box-tray__wrapper {
-    margin-top: auto;
 }
 
 .settings-tray__wrapper {
@@ -197,5 +184,13 @@ hr {
 }
 
 input::placeholder {
-    color: red;
+    color: black;
+}
+
+.row.no-gutters {
+    margin: 1rem 0;
+}
+
+.row.no-gutters:last-child {
+    margin-bottom: 0;
 }
