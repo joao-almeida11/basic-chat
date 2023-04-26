@@ -174,9 +174,6 @@ hr {
     margin-top: auto;
 }
 
-.chat-box-tray__wrapper {
-}
-
 .settings-tray__wrapper {
     display: flex;
     flex-direction: column;

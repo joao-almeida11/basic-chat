@@ -23,11 +23,6 @@
                             <h6>PHP GPT</h6>
                             <p class="text-muted">funny description</p>
                         </div>
-                        <!-- <span class="settings-tray--right">
-                            <i class="material-icons">cached</i>
-                            <i class="material-icons">message</i>
-                            <i class="material-icons">menu</i>
-                        </span> -->
                     </div>
                 </div>
                 <div class="chat-panel">
@@ -81,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row chat-box-tray__wrapper">
+                <div class="row">
                     <div class="col-12">
                         <div class="chat-box-tray">
                             <i class="material-icons">sentiment_very_satisfied</i>
