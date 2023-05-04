@@ -13,80 +13,82 @@
 </head>
 
 <body>
-    <div class="container chat-body">
-        <div class="row no-gutters">
-            <div class="col-12 settings-tray__wrapper">
-                <div class="settings-tray">
-                    <div class="friend-drawer no-gutters friend-drawer--grey">
-                        <img class="profile-image" src="./assets/cat_photo_01.png" alt="">
-                        <div class=" text">
-                            <h6>AVILA Chat</h6>
-                            <p class="text-muted">funny description</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="chat-panel">
-                    <div class="row no-gutters">
-                        <div class="col-md-6">
-                            <div class="chat-bubble--left">
-                                <div class="message">
-                                    <div class="message__avatar">
-                                        <img class="profile-image" src="./assets/cat_photo_01.png" />
-                                    </div>
-                                    <div class="message__list">
-                                        <p class="message__author-name">PHP GPT</p>
-                                        <p class="chat-bubble">Avilla!</p>
-                                    </div>
-                                </div>
+    <div class="chat-body__wrapper">
+        <div class="chat-body">
+            <div class="row no-gutters">
+                <div class="col-12 settings-tray__wrapper">
+                    <div class="settings-tray">
+                        <div class="friend-drawer no-gutters friend-drawer--grey">
+                            <img class="profile-image" src="./assets/cat_photo_01.png" alt="">
+                            <div class=" text">
+                                <h6>AVILA Chat</h6>
+                                <p class="text-muted">funny description</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row no-gutters">
-                        <div class="col-md-6 offset-md-6">
-                            <div class="chat-bubble--right">
-                                <p class="chat-bubble">Avilla!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-md-6 offset-md-6">
-                            <div class="chat-bubble--right">
-                                <p class="chat-bubble">Avilla!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-md-6">
-                            <div class="chat-bubble--left">
-                                <div class="message">
-                                    <div class="message__avatar">
-                                        <img class="profile-image" src="./assets/cat_photo_01.png" />
-                                    </div>
-                                    <div class="message__list">
-                                        <p class="message__author-name">PHP GPT</p>
-                                        <p class="chat-bubble">Avilla!</p>
-                                        <p class="chat-bubble">Avilla!</p>
-                                        <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+                    <div class="chat-panel">
+                        <div class="row no-gutters">
+                            <div class="col-sm-6">
+                                <div class="chat-bubble--left">
+                                    <div class="message">
+                                        <div class="message__avatar">
+                                            <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                        </div>
+                                        <div class="message__list">
+                                            <p class="message__author-name">PHP GPT</p>
+                                            <p class="chat-bubble">Avilla!</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-md-6 offset-md-6">
-                            <div class="chat-bubble--right">
-                                <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+                        <div class="row no-gutters">
+                            <div class="col-sm-9 offset-sm-3">
+                                <div class="chat-bubble--right">
+                                    <p class="chat-bubble">Avilla!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-sm-9 offset-sm-3">
+                                <div class="chat-bubble--right">
+                                    <p class="chat-bubble">Avilla!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-sm-6">
+                                <div class="chat-bubble--left">
+                                    <div class="message">
+                                        <div class="message__avatar">
+                                            <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                        </div>
+                                        <div class="message__list">
+                                            <p class="message__author-name">PHP GPT</p>
+                                            <p class="chat-bubble">Avilla!</p>
+                                            <p class="chat-bubble">Avilla!</p>
+                                            <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-sm-9 offset-sm-3">
+                                <div class="chat-bubble--right">
+                                    <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="chat-box-tray">
-                            <!-- <i class="material-icons">sentiment_very_satisfied</i> -->
-                            <input type="text" placeholder="Type your message here...">
-                            <!-- <i class="material-icons">mic</i> -->
-                            <i class="material-icons">send</i>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="chat-box-tray">
+                                <!-- <i class="material-icons">sentiment_very_satisfied</i> -->
+                                <input type="text" placeholder="Type your message here...">
+                                <!-- <i class="material-icons">mic</i> -->
+                                <i class="material-icons">send</i>
+                            </div>
                         </div>
                     </div>
                 </div>
