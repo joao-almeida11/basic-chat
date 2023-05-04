@@ -110,10 +110,13 @@ hr {
 .chat-bubble {
     padding: 10px 14px;
     background: #eee;
-    margin: 0 1rem;
     border-radius: 9px;
     position: relative;
     animation: fadeIn 1s ease-in;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    margin-bottom: 0;
 }
 .chat-bubble:after {
     content: '';
@@ -190,4 +193,19 @@ input::placeholder {
 
 .row.no-gutters:last-child {
     margin-bottom: 0;
+}
+
+.message {
+    display: grid;
+    grid-template-columns: 50px auto;
+    gap: 0.5rem;
+    padding-right: 1rem;
+}
+
+.chat-bubble--left {
+    margin-left: 1rem;
+}
+
+.chat-bubble--right {
+    margin-right: 1rem;
 }

@@ -28,50 +28,62 @@
                 <div class="chat-panel">
                     <div class="row no-gutters">
                         <div class="col-md-3">
-                            <div class="chat-bubble chat-bubble--left">
-                                Avilla!
+                            <div class="chat-bubble--left message">
+                                <div>
+                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                </div>
+                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3 offset-md-9">
-                            <div class="chat-bubble chat-bubble--right">
-                                Avilla!
+                            <div class="chat-bubble--right">
+                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3 offset-md-9">
-                            <div class="chat-bubble chat-bubble--right">
-                                Avilla!
+                            <div class="chat-bubble--right">
+                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3">
-                            <div class="chat-bubble chat-bubble--left">
-                                Avilla!
+                            <div class="chat-bubble--left message">
+                                <div>
+                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                </div>
+                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3">
-                            <div class="chat-bubble chat-bubble--left">
-                                Avilla!
+                            <div class="chat-bubble--left message">
+                                <div>
+                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                </div>
+                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3">
-                            <div class="chat-bubble chat-bubble--left">
-                                Avilla!
+                            <div class="chat-bubble--left message">
+                                <div>
+                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                </div>
+                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-3 offset-md-9">
-                            <div class="chat-bubble chat-bubble--right">
-                                Avilla!
+                            <div class="chat-bubble--right">
+                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +91,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="chat-box-tray">
-                            <i class="material-icons">sentiment_very_satisfied</i>
+                            <!-- <i class="material-icons">sentiment_very_satisfied</i> -->
                             <input type="text" placeholder="Type your message here...">
                             <!-- <i class="material-icons">mic</i> -->
                             <i class="material-icons">send</i>
