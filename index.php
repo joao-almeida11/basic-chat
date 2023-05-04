@@ -36,7 +36,7 @@
                                         </div>
                                         <div class="message__list">
                                             <p class="message__author-name">PHP GPT</p>
-                                            <p class="chat-bubble">Avilla!</p>
+                                            <p class="chat-bubble"><span>Avilla!</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -45,14 +45,14 @@
                         <div class="row no-gutters">
                             <div class="col-sm-9 offset-sm-3">
                                 <div class="chat-bubble--right">
-                                    <p class="chat-bubble">Avilla!</p>
+                                    <p class="chat-bubble"><span>Avilla!</span></p>
                                 </div>
                             </div>
                         </div>
                         <div class="row no-gutters">
                             <div class="col-sm-9 offset-sm-3">
                                 <div class="chat-bubble--right">
-                                    <p class="chat-bubble">Avilla!</p>
+                                    <p class="chat-bubble"><span>Avilla!</span></p>
                                 </div>
                             </div>
                         </div>
@@ -65,9 +65,9 @@
                                         </div>
                                         <div class="message__list">
                                             <p class="message__author-name">PHP GPT</p>
-                                            <p class="chat-bubble">Avilla!</p>
-                                            <p class="chat-bubble">Avilla!</p>
-                                            <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+                                            <p class="chat-bubble"><span>Avilla!</span></p>
+                                            <p class="chat-bubble"><span>Avilla!</span></p>
+                                            <p class="chat-bubble"><span>Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                         <div class="row no-gutters">
                             <div class="col-sm-9 offset-sm-3">
                                 <div class="chat-bubble--right">
-                                    <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+                                    <p class="chat-bubble"><span>Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</span></p>
                                 </div>
                             </div>
                         </div>
