@@ -20,7 +20,7 @@
                     <div class="friend-drawer no-gutters friend-drawer--grey">
                         <img class="profile-image" src="./assets/cat_photo_01.png" alt="">
                         <div class=" text">
-                            <h6>PHP GPT</h6>
+                            <h6>AVILA Chat</h6>
                             <p class="text-muted">funny description</p>
                         </div>
                     </div>
@@ -28,11 +28,16 @@
                 <div class="chat-panel">
                     <div class="row no-gutters">
                         <div class="col-md-6">
-                            <div class="chat-bubble--left message">
-                                <div>
-                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
+                            <div class="chat-bubble--left">
+                                <div class="message">
+                                    <div class="message__avatar">
+                                        <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                    </div>
+                                    <div class="message__list">
+                                        <p class="message__author-name">PHP GPT</p>
+                                        <p class="chat-bubble">Avilla!</p>
+                                    </div>
                                 </div>
-                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
@@ -52,31 +57,18 @@
                     </div>
                     <div class="row no-gutters">
                         <div class="col-md-6">
-                            <div class="chat-bubble--left message">
-                                <div>
-                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
+                            <div class="chat-bubble--left">
+                                <div class="message">
+                                    <div class="message__avatar">
+                                        <img class="profile-image" src="./assets/cat_photo_01.png" />
+                                    </div>
+                                    <div class="message__list">
+                                        <p class="message__author-name">PHP GPT</p>
+                                        <p class="chat-bubble">Avilla!</p>
+                                        <p class="chat-bubble">Avilla!</p>
+                                        <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
+                                    </div>
                                 </div>
-                                <p class="chat-bubble">Avilla!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-md-6">
-                            <div class="chat-bubble--left message">
-                                <div>
-                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
-                                </div>
-                                <p class="chat-bubble">Avilla!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-md-6">
-                            <div class="chat-bubble--left message">
-                                <div>
-                                    <img class="profile-image" src="./assets/cat_photo_01.png" />
-                                </div>
-                                <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
