@@ -27,7 +27,7 @@
                 </div>
                 <div class="chat-panel">
                     <div class="row no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="chat-bubble--left message">
                                 <div>
                                     <img class="profile-image" src="./assets/cat_photo_01.png" />
@@ -37,21 +37,21 @@
                         </div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-md-3 offset-md-9">
+                        <div class="col-md-6 offset-md-6">
                             <div class="chat-bubble--right">
                                 <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-md-3 offset-md-9">
+                        <div class="col-md-6 offset-md-6">
                             <div class="chat-bubble--right">
                                 <p class="chat-bubble">Avilla!</p>
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="chat-bubble--left message">
                                 <div>
                                     <img class="profile-image" src="./assets/cat_photo_01.png" />
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="chat-bubble--left message">
                                 <div>
                                     <img class="profile-image" src="./assets/cat_photo_01.png" />
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="chat-bubble--left message">
                                 <div>
                                     <img class="profile-image" src="./assets/cat_photo_01.png" />
@@ -81,9 +81,9 @@
                         </div>
                     </div>
                     <div class="row no-gutters">
-                        <div class="col-md-3 offset-md-9">
+                        <div class="col-md-6 offset-md-6">
                             <div class="chat-bubble--right">
-                                <p class="chat-bubble">Avilla!</p>
+                                <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
                             </div>
                         </div>
                     </div>

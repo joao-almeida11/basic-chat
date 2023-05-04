@@ -117,6 +117,7 @@ hr {
     align-items: center;
     min-height: 50px;
     margin-bottom: 0;
+    width: fit-content;
 }
 .chat-bubble:after {
     content: '';
@@ -136,7 +137,7 @@ hr {
         opacity: 1;
     }
 }
-.offset-md-9 .chat-bubble {
+.offset-md-6 .chat-bubble {
     background: #74b9ff;
     color: #fff;
 }
@@ -208,4 +209,6 @@ input::placeholder {
 
 .chat-bubble--right {
     margin-right: 1rem;
+    display: flex;
+    justify-content: end;
 }
