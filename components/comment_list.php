@@ -58,7 +58,7 @@
         {
             echo "<script>console.log(" . json_encode($msg) . ")</script>";
         }
-        debugToConsole($messages_list);
+        // debugToConsole($messages_list);
 
         $messages_list_formatted = array();
         foreach ($messages_list as $single_message) {
@@ -82,60 +82,52 @@
         }
 
         debugToConsole($messages_list_formatted);
+
+        foreach ($messages_list_formatted as $single_message_list) {
+            if ($single_message_list['emissor'] == $_SESSION["userId"]) {
+                // message right
+                echo
+                '
+                    <div class="row no-gutters">
+        <div class="col-sm-9 offset-sm-3">
+            <div class="chat-bubble--right"><div class="message__list">';
+                foreach ($single_message_list['messages_list_same_person'] as $single_message_value) {
+                    echo ' <p class="chat-bubble">' . htmlspecialchars($single_message_value) . '</p>';
+                }
+                echo
+                '
+            </div>
+            </div>
+        </div>
+    </div>
+                ';
+            } else if ($single_message_list['recetor'] == $_SESSION["userId"]) {
+                // message left
+
+                echo
+                '
+                    <div class="row no-gutters">
+        <div class="col-sm-6">
+            <div class="chat-bubble--left">
+                <div class="message">
+                    <div class="message__avatar">
+                        <img class="profile-image" src="./assets/cat_photo_01.png" />
+                    </div>
+                    <div class="message__list">
+                        <p class="message__author-name">' . htmlspecialchars($single_message_list['emissor']) . '</p>';
+
+                foreach ($single_message_list['messages_list_same_person'] as $single_message_value) {
+                    echo ' <p class="chat-bubble">' . htmlspecialchars($single_message_value) . '</p>';
+                }
+
+                echo '
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                ';
+            }
+        }
     }
     ?>
-
-    <div class="row no-gutters">
-        <div class="col-sm-6">
-            <div class="chat-bubble--left">
-                <div class="message">
-                    <div class="message__avatar">
-                        <img class="profile-image" src="./assets/cat_photo_01.png" />
-                    </div>
-                    <div class="message__list">
-                        <p class="message__author-name">PHP GPT</p>
-                        <p class="chat-bubble">Avilla!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row no-gutters">
-        <div class="col-sm-9 offset-sm-3">
-            <div class="chat-bubble--right">
-                <p class="chat-bubble">Avilla!</p>
-            </div>
-        </div>
-    </div>
-    <div class="row no-gutters">
-        <div class="col-sm-9 offset-sm-3">
-            <div class="chat-bubble--right">
-                <p class="chat-bubble">Avilla!</p>
-            </div>
-        </div>
-    </div>
-    <div class="row no-gutters">
-        <div class="col-sm-6">
-            <div class="chat-bubble--left">
-                <div class="message">
-                    <div class="message__avatar">
-                        <img class="profile-image" src="./assets/cat_photo_01.png" />
-                    </div>
-                    <div class="message__list">
-                        <p class="message__author-name">PHP GPT</p>
-                        <p class="chat-bubble">Avilla!</p>
-                        <p class="chat-bubble">Avilla!</p>
-                        <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row no-gutters">
-        <div class="col-sm-9 offset-sm-3">
-            <div class="chat-bubble--right">
-                <p class="chat-bubble">Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</p>
-            </div>
-        </div>
-    </div>
-</div>

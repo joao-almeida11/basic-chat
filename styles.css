@@ -172,7 +172,8 @@ hr {
     background: #fff;
     padding: 0;
     border-radius: 7px;
-    max-width: 90%;
+    width: 90%;
+    margin: 1rem 0;
 }
 
 .chat-body > .no-gutters {
@@ -186,12 +187,13 @@ hr {
 .chat-panel {
     margin-top: auto;
     overflow-y: auto;
-    max-height: 70dvh;
+    overflow-x: hidden;
+    /* max-height: 70dvh; */
 }
 
-.chat-panel > div:last-child {
+/* .chat-panel > div:last-child {
     margin-bottom: 0.75rem !important;
-}
+} */
 
 .settings-tray__wrapper {
     display: flex;
@@ -227,6 +229,10 @@ input::placeholder {
     gap: 0.5rem;
 }
 
+.chat-bubble--right > .message__list {
+    align-items: flex-end;
+}
+
 .message__author-name {
     font-size: 0.875rem;
     color: rgba(0, 0, 0, 0.5);
@@ -245,9 +251,9 @@ input::placeholder {
     justify-content: end;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .chat-body {
         height: calc(100dvh - 40px);
         margin: 20px 0.5rem;
     }
-}
+} */
