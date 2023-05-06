@@ -90,7 +90,9 @@
                 '
                     <div class="row no-gutters">
         <div class="col-sm-9 offset-sm-3">
-            <div class="chat-bubble--right"><div class="message__list">';
+            <div class="chat-bubble--right"><div class="message__list">
+            <p class="message__author-name">' . htmlspecialchars($single_message_list['emissor']) . '</p>
+            ';
                 foreach ($single_message_list['messages_list_same_person'] as $single_message_value) {
                     echo ' <p class="chat-bubble">' . htmlspecialchars($single_message_value) . '</p>';
                 }

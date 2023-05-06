@@ -5,7 +5,7 @@
         </div>
         <div class="message__list">
             <p class="message__author-name">PHP GPT</p>
-            <p class="chat-bubble">Avilla!</p>
+            <p class="chat-bubble">Avila!</p>
         </div>
     </div>
 </div>
