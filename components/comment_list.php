@@ -16,8 +16,8 @@
         $stmt = mysqli_stmt_init($link);
 
         $query = "SELECT `id_messages`, `message`, `time`, messages.ref_id_recetor, messages.ref_id_emissor FROM `messages`
-    INNER JOIN users
-    ON users.username = messages.ref_id_recetor
+    INNER JOIN teams
+    ON teams.username = messages.ref_id_recetor
     WHERE messages.ref_id_recetor = ? OR messages.ref_id_emissor = ?
     ORDER BY `messages`.`time`";
 
