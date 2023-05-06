@@ -187,13 +187,12 @@ hr {
 .chat-panel {
     margin-top: auto;
     overflow-y: auto;
-    overflow-x: hidden;
-    /* max-height: 70dvh; */
+    max-height: 70dvh;
 }
 
-/* .chat-panel > div:last-child {
-    margin-bottom: 0.75rem !important;
-} */
+.chat-panel > div:last-child {
+    margin-bottom: 1rem !important;
+}
 
 .settings-tray__wrapper {
     display: flex;
@@ -227,6 +226,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    transform: translateY(5px);
 }
 
 .chat-bubble--right > .message__list {
@@ -251,9 +251,9 @@ input::placeholder {
     justify-content: end;
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
     .chat-body {
         height: calc(100dvh - 40px);
         margin: 20px 0.5rem;
     }
-} */
+}

@@ -96,6 +96,7 @@
                 }
                 echo
                 '
+                <p class="message__author-name">' . htmlspecialchars($single_message_list['time']) . '</p>
             </div>
             </div>
         </div>
@@ -120,7 +121,9 @@
                     echo ' <p class="chat-bubble">' . htmlspecialchars($single_message_value) . '</p>';
                 }
 
-                echo '
+                echo
+                '
+                   <p class="message__author-name">' . htmlspecialchars($single_message_list['time']) . '</p>
                     </div>
                 </div>
             </div>
@@ -131,3 +134,4 @@
         }
     }
     ?>
+</div>
