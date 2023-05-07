@@ -22,19 +22,21 @@
                             <img class="profile-image" src="./assets/cat_photo_01.png" alt="">
                             <div class=" text">
                                 <h6>AVILA Chat</h6>
-                                <p class="text-muted">funny description</p>
+                                <p class="text-muted">brought to you by ChatPHP</p>
                             </div>
                         </div>
                     </div>
-                    <?php require_once('./components/comment_list.php'); ?>
+                    <?php require_once('./components/comment_list.php');?>
                     <div class="row">
                         <div class="col-12">
-                            <div class="chat-box-tray">
-                                <!-- <i class="material-icons">sentiment_very_satisfied</i> -->
-                                <input type="text" placeholder="Type your message here...">
-                                <!-- <i class="material-icons">mic</i> -->
-                                <i class="material-icons">send</i>
-                            </div>
+                            <form method="post" action="./scripts/sc_sendMessage.php">
+                                <div class="chat-box-tray">
+                                    <!-- <i class="material-icons">sentiment_very_satisfied</i> -->
+                                    <input type="text" placeholder="Type your message here..." id="sendMessage" name="sendMessage">
+                                    <!-- <i class="material-icons">mic</i> -->
+                                    <button type="submit"><i class="material-icons">send</i></button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

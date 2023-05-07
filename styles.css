@@ -203,6 +203,13 @@ input::placeholder {
     color: black;
 }
 
+button {
+    border-width: 0px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
 .row.no-gutters {
     margin: 1rem 0;
 }

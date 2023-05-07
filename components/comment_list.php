@@ -1,13 +1,13 @@
 <div class="chat-panel">
     <?php
-
     session_start();
+    // INSERE AQUI O ID DA TUA EQUIPA
     $_SESSION["userId"] = "PHP Masters"; // TODO: make this dynamic
     if (isset($_SESSION['userId'])) {
         $userId = $_SESSION['userId'];
 
         // the file path is relative to index.php where this file is included
-        require_once("connections/connection.php");
+        require_once "connections/connection.php";
 
         // Create a new DB connection
         $link = new_db_connection();
