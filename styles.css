@@ -269,3 +269,12 @@ button {
     animation: none !important;
     transition: none !important;
   }
+
+  .refresh-button{
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #3498db;
+    padding: 10px;
+    color: white;
+    margin-left: 150px;
+  }

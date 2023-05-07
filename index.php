@@ -23,12 +23,14 @@
                             <div class=" text">
                                 <h6>AVILA Chat</h6>
                                 <p class="text-muted">brought to you by ChatPHP</p>
+                                
                             </div>
+                            <button class="refresh-button" onclick="refreshPage()">Refresh Chat</button>
                         </div>
                     </div>
                     <div class="chat-panel" id="chatMessages">
-                    <?php
-                    include_once('./components/comment_list.php');?>
+                        <?php
+                        include_once('./components/comment_list.php'); ?>
                     </div>
                     <div class="row">
                         <div class="col-12">
@@ -38,8 +40,10 @@
                                     <input type="text" placeholder="Type your message here..." id="sendMessage" name="sendMessage">
                                     <!-- <i class="material-icons">mic</i> -->
                                     <button type="submit"><i class="material-icons">send</i></button>
+                                    </form>
+                                    
                                 </div>
-                            </form>
+                            
                         </div>
                     </div>
                 </div>
@@ -47,28 +51,30 @@
         </div>
     </div>
     <script>
-    function loadDoc() {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("chatMessages").innerHTML = this.responseText;
-            }
+        function refreshPage() {
+            window.location.reload();
+        }
+        // function loadDoc() {
+        //     var xhttp = new XMLHttpRequest();
+        //     xhttp.onreadystatechange = function() {
+        //         if (this.readyState == 4 && this.status == 200) {
+        //             document.getElementById("chatMessages").innerHTML = this.responseText;
+        //         }
+        //     };
+        //     xhttp.open("GET", "/scripts/sc_comment_list.php", true);
+        //     xhttp.send();
+
+        // }
+        window.onload = function() {
+            document.getElementById('chatMessages').scrollTo(0, document.getElementById('chatMessages').scrollHeight);
+            setInterval(function() {
+                //loadDoc();
+                document.getElementById('chatMessages').scrollTo(0, document.getElementById('chatMessages').scrollHeight);
+
+            }, 5000);
+
         };
-        xhttp.open("GET", "/scripts/sc_comment_list.php", true);
-        xhttp.send();
-
-    }
-    window.onload = function(){
-        document.getElementById('chatMessages').scrollTo(0,document.getElementById('chatMessages').scrollHeight);
-        setInterval(function(){
-            loadDoc();
-            document.getElementById('chatMessages').scrollTo(0,document.getElementById('chatMessages').scrollHeight);
-            
-        }, 5000);
-        
-    };
-
-</script>
+    </script>
 </body>
 
 </html>

@@ -5,7 +5,7 @@ $user_id = $_SESSION["userId"];
 echo $_SESSION["userId"];
 echo $_POST['sendMessage'];
 
-if(isset($_POST['sendMessage'])){
+if(isset($_POST['sendMessage']) && !empty($_POST['sendMessage'])){
 
     $message=htmlspecialchars($_POST['sendMessage']);
     $recetor = "mentorAVILA";
