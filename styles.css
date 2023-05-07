@@ -264,3 +264,8 @@ button {
         margin: 20px 0.5rem;
     }
 }
+
+  * {
+    animation: none !important;
+    transition: none !important;
+  }

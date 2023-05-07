@@ -63,6 +63,7 @@
         setInterval(function(){
             loadDoc();
             document.getElementById('chatMessages').scrollTo(0,document.getElementById('chatMessages').scrollHeight);
+            
         }, 5000);
         
     };
