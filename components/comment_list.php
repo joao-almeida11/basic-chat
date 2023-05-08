@@ -3,8 +3,8 @@
 
     session_start();
 
-    // INSERT YOUR TEAM ID HERE
-    $_SESSION["userId"] = "PHP Masters"; // TODO: make this dynamic
+    // INSERT YOUR TEAM ID HERE 
+    $_SESSION["userId"] = " "; // INSERT YOUR TEAM USERNAME HERE
     if (isset($_SESSION['userId'])) {
         $userId = $_SESSION['userId'];
 
