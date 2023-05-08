@@ -34,7 +34,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <form method="post" action="./scripts/sc_sendMessage.php">
+                            <form method="post" action="">
                                 <div class="chat-box-tray">
                                     <!-- <i class="material-icons">sentiment_very_satisfied</i> -->
                                     <input type="text" placeholder="Type your message here..." id="sendMessage" name="sendMessage">
@@ -54,17 +54,6 @@
         function refreshPage() {
             window.location.reload();
         }
-        // function loadDoc() {
-        //     var xhttp = new XMLHttpRequest();
-        //     xhttp.onreadystatechange = function() {
-        //         if (this.readyState == 4 && this.status == 200) {
-        //             document.getElementById("chatMessages").innerHTML = this.responseText;
-        //         }
-        //     };
-        //     xhttp.open("GET", "/scripts/sc_comment_list.php", true);
-        //     xhttp.send();
-
-        // }
         window.onload = function() {
             document.getElementById('chatMessages').scrollTo(0, document.getElementById('chatMessages').scrollHeight);
             setInterval(function() {
