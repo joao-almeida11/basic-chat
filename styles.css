@@ -192,7 +192,7 @@ hr {
 .chat-panel {
     margin-top: auto;
     overflow-y: auto;
-    max-height: 70dvh;
+    max-height: 75dvh;
 }
 
 .chat-panel > div:last-child {

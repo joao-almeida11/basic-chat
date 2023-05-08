@@ -38,6 +38,7 @@
                 mysqli_stmt_bind_result($stmt, $id_messages, $message, $time, $recetor, $emissor);
                 /* fetch values */
                 while (mysqli_stmt_fetch($stmt)) {
+                    // if the emissor is the user logged in then its is own messages
                     if ($emissor == $_SESSION["userId"]) {
                         // message right
                         echo
@@ -53,7 +54,10 @@
         </div>
     </div>
                 ';
+                 
+                    // if the recetor is the user logged in then the logged user is seeing the message that the mentor is sending to him/her
                     } else if ($recetor == $_SESSION["userId"]) {
+                        
                         // message left
                         echo
                         '
