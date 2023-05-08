@@ -54,21 +54,9 @@
         function refreshPage() {
             window.location.reload();
         }
-        // function loadDoc() {
-        //     var xhttp = new XMLHttpRequest();
-        //     xhttp.onreadystatechange = function() {
-        //         if (this.readyState == 4 && this.status == 200) {
-        //             document.getElementById("chatMessages").innerHTML = this.responseText;
-        //         }
-        //     };
-        //     xhttp.open("GET", "/scripts/sc_comment_list.php", true);
-        //     xhttp.send();
-
-        // }
         window.onload = function() {
             document.getElementById('chatMessages').scrollTo(0, document.getElementById('chatMessages').scrollHeight);
             setInterval(function() {
-                //loadDoc();
                 document.getElementById('chatMessages').scrollTo(0, document.getElementById('chatMessages').scrollHeight);
 
             }, 5000);

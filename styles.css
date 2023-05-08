@@ -292,7 +292,7 @@ button {
   }
 
   .refresh-button{
-    border-radius: 25px;
+    border-radius: 10px;
     cursor: pointer;
     background-color: #10A37F;
     padding: 15px;
