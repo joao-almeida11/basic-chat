@@ -8,7 +8,7 @@
         $userId = $_SESSION['userId'];
 
         // the file path is relative to index.php where this file is included
-        require_once "connections/connection.php";
+        require_once "../connections/connection.php";
 
         // Create a new DB connection
         $link = new_db_connection();
