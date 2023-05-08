@@ -19,7 +19,7 @@
                 <div class="col-12 settings-tray__wrapper">
                     <div class="settings-tray">
                         <div class="friend-drawer no-gutters friend-drawer--grey">
-                            <img class="profile-image" src="./assets/cat_photo_01.png" alt="">
+                            <img class="profile-image" src="./assets/chatPHP.png" alt="">
                             <div class=" text">
                                 <h6>AVILA Chat</h6>
                                 <p class="text-muted">brought to you by ChatPHP</p>
@@ -39,7 +39,7 @@
                                     <!-- <i class="material-icons">sentiment_very_satisfied</i> -->
                                     <input type="text" placeholder="Type your message here..." id="sendMessage" name="sendMessage">
                                     <!-- <i class="material-icons">mic</i> -->
-                                    <button type="submit"><i class="material-icons">send</i></button>
+                                    <button type="submit" class="sendButton"><i class="material-icons">send</i></button>
                                     </form>
                                     
                                 </div>

@@ -48,7 +48,7 @@
             <div class="chat-bubble--right"><div class="message__list">
             <p class="message__author-name">' . htmlspecialchars($emissor) . '</p>
                 <p class="chat-bubble">' . htmlspecialchars($message) . '</p>
-                <p class="message__author-name">' . htmlspecialchars($time) . '</p>
+                <p class="message__date-name">' . htmlspecialchars($time) . '</p>
             </div>
             </div>
         </div>
@@ -66,12 +66,12 @@
             <div class="chat-bubble--left">
                 <div class="message">
                     <div class="message__avatar">
-                        <img class="profile-image" src="./assets/cat_photo_01.png" />
+                        <img class="profile-image" src="./assets/chatPHP.png" />
                     </div>
                     <div class="message__list">
                         <p class="message__author-name">' . htmlspecialchars($emissor) . '</p>
                    <p class="chat-bubble">' . htmlspecialchars($message) . '</p>
-                   <p class="message__author-name">' . htmlspecialchars($time) .
+                   <p class="message__date-name">' . htmlspecialchars($time) .
                         '</p>
                     </div>
                 </div>

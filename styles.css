@@ -1,6 +1,6 @@
 /* https://codepen.io/FilipRastovic/pen/pXgqKK */
 body {
-    background-color: #3498db;
+    background-color: #1e1e1e;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -9,12 +9,12 @@ body {
 .profile-image {
     width: 50px;
     height: 50px;
-    border-radius: 40px;
+    border-radius: 5px 5px 5px ;
 }
 .settings-tray {
-    background: #eee;
+    background: #242529;
     padding: 10px 15px;
-    border-radius: 7px;
+    border-radius: 7px 7px 0 0;
 }
 .settings-tray .no-gutters {
     padding: 0;
@@ -30,7 +30,7 @@ body {
     transition: 0.3s;
 }
 .settings-tray--right i:hover {
-    color: #74b9ff;
+    color: #242529;
     cursor: pointer;
 }
 .search-box {
@@ -68,15 +68,16 @@ input:focus {
     padding: 10px 15px;
     display: flex;
     vertical-align: baseline;
-    background: #fff;
+    background: #242529;
     transition: 0.3s ease;
 }
 .friend-drawer--grey {
-    background: #eee;
+    background: #242529;
 }
 .friend-drawer .text {
     margin-left: 12px;
     width: 70%;
+    color: white;
 }
 .friend-drawer .text h6 {
     margin-top: 6px;
@@ -103,7 +104,7 @@ hr {
 }
 .chat-bubble {
     padding: 10px 14px;
-    background: #eee;
+    background: #444654;
     border-radius: 9px;
     position: relative;
     animation: fadeIn 1s ease-in;
@@ -112,6 +113,7 @@ hr {
     min-height: 50px;
     margin-bottom: 0;
     width: fit-content;
+    color: white;
 }
 .chat-bubble:after {
     content: '';
@@ -122,6 +124,7 @@ hr {
     border: 20px solid rgba(0, 0, 0, 0);
     border-bottom: 0;
     margin-top: -10px;
+    color: white;
 }
 @keyframes fadeIn {
     0% {
@@ -132,24 +135,27 @@ hr {
     }
 }
 .offset-sm-3 .chat-bubble {
-    background: #74b9ff;
+    background: #242529;
     color: #fff;
 }
 .chat-box-tray {
-    background: #eee;
+    background: #242529;
     display: flex;
     align-items: baseline;
     padding: 10px 15px;
     align-items: center;
     /* margin-top: 19px; */
     bottom: 0;
+    padding: 1.25rem 0.5rem;
+    border-radius: 0 0 7px 7px;
 }
 .chat-box-tray input {
     margin: 0 10px;
     padding: 0.5rem 1rem;
+    background-color: #535561;
 }
 .chat-box-tray i {
-    color: gray;
+    color: #60626e;
     font-size: 30px;
     vertical-align: middle;
 }
@@ -173,7 +179,7 @@ hr {
 }
 
 .chat-body {
-    background: #fff;
+    background: #343541;
     padding: 0;
     border-radius: 7px;
     width: 90%;
@@ -205,7 +211,11 @@ hr {
 }
 
 input::placeholder {
-    color: black;
+    color: rgb(218, 218, 218);
+    font-weight: 400;
+}
+input{
+    color: rgb(218, 218, 218);
 }
 
 button {
@@ -231,7 +241,7 @@ button {
 }
 
 .message__avatar {
-    margin-top: auto;
+    margin-top: 0.7rem;
 }
 
 .message__list {
@@ -247,7 +257,13 @@ button {
 
 .message__author-name {
     font-size: 0.875rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: #32DAB1;
+    margin-bottom: 0;
+    margin-left: 0.25rem;
+}
+.message__date-name {
+    font-size: 0.875rem;
+    color: #ccc;
     margin-bottom: 0;
     margin-left: 0.25rem;
 }
@@ -278,8 +294,12 @@ button {
   .refresh-button{
     border-radius: 25px;
     cursor: pointer;
-    background-color: #3498db;
-    padding: 10px;
+    background-color: #10A37F;
+    padding: 15px;
     color: white;
     margin-left: auto;
+  }
+
+  .sendButton {
+    background-color: transparent;
   }

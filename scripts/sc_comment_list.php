@@ -115,7 +115,7 @@
             <div class="chat-bubble--left">
                 <div class="message">
                     <div class="message__avatar">
-                        <img class="profile-image" src="./assets/cat_photo_01.png" />
+                        <img class="profile-image" src="./assets/chatPHP.png" />
                     </div>
                     <div class="message__list">
                         <p class="message__author-name">' . htmlspecialchars($single_message_list['emissor']) . '</p>';
