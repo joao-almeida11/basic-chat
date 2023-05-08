@@ -49,7 +49,7 @@ body {
 input {
     border: none;
     border-radius: 30px;
-    width: 90%;
+    width: 100%;
 }
 input::-moz-placeholder {
     color: #e3e3e3;
@@ -159,6 +159,9 @@ hr {
 
 
 /* Custom Styles */
+.chat-box-tray button {
+    padding-right: 0;
+}
 
 .chat-body__wrapper {
     height: 100dvh;
@@ -166,6 +169,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100dvh;
 }
 
 .chat-body {
@@ -174,6 +178,7 @@ hr {
     border-radius: 7px;
     width: 90%;
     margin: 1rem 0;
+    height: 90dvh;
 }
 
 .chat-body > .no-gutters {
@@ -276,5 +281,5 @@ button {
     background-color: #3498db;
     padding: 10px;
     color: white;
-    margin-left: 150px;
+    margin-left: auto;
   }
