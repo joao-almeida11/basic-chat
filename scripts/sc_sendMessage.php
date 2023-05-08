@@ -2,8 +2,8 @@
 session_start();
 $user_id = $_SESSION["userId"];
 
-echo $_SESSION["userId"];
-echo $_POST['sendMessage'];
+// echo $_SESSION["userId"];
+// echo $_POST['sendMessage'];
 
 if(isset($_POST['sendMessage']) && !empty($_POST['sendMessage'])){
 
@@ -24,10 +24,11 @@ if(isset($_POST['sendMessage']) && !empty($_POST['sendMessage'])){
 
 
         if(mysqli_stmt_execute($stmt)){
+            // to redir
             header("Location: ../index.php");
         }else{
-            echo $recetor;
-            echo $user_id;
+            // echo $recetor;
+            // echo $user_id;
             echo "Error:" . mysqli_stmt_error($stmt); // Error here
         }
 
@@ -39,7 +40,6 @@ if(isset($_POST['sendMessage']) && !empty($_POST['sendMessage'])){
     }
 
     mysqli_close($link); // Close connection
-    //header("Location: ../index.php");
     
 }else{
     header("Location: ../index.php");
