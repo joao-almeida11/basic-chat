@@ -15,7 +15,7 @@ if(isset($_POST['sendMessage']) && !empty($_POST['sendMessage'])){
     $link=new_db_connection();
 
     $stmt= mysqli_stmt_init($link);
-    $query="INSERT INTO messages (message, ref_id_emissor, ref_id_recetor) VALUES(?,?,?)";
+    $query="INSERT INTO temporary_messages (message, ref_id_emissor, ref_id_recetor) VALUES(?,?,?)";
 
     if (mysqli_stmt_prepare($stmt, $query)) { // Prepare the statement
         echo 'hey';
